@@ -1,0 +1,38 @@
+#contact {
+    height: 100%;
+    padding: 72px 20px;
+    border: 50%;
+  }
+
+  #contact form:hover {
+    transform: scale(1.02);
+    transition: all ease 1s;
+  }
+.contact {
+     background: #a52a2a;
+      padding: 40px;
+     } 
+
+
+.contact-container {
+    display: flex; 
+    gap: 30px;
+    flex-direction: row;
+    gap: 24px;
+    color: white;
+    border:30%;
+} 
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    } 
+     
+     
+form button {
+    background: white;
+    color: #800000; 
+    font-weight: bold;
+    cursor: pointer; 
+    }

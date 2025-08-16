@@ -1,0 +1,37 @@
+#Aboutme {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about { 
+    background: rgba(130, 28, 28, 0.84);
+     padding: 40px;
+
+
+} .about-container { 
+    display: flex; gap: 30px; 
+} 
+
+.skills ul {
+     list-style: none;
+      padding: 0;
+ }
+ 
+ .icons img {
+     width: 40px; margin: 5px; 
+ }
+ .about-text .text-box {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
