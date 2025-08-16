@@ -18,3 +18,6 @@
       gap: 50px;
     justify-content: center;
  } 
+ .projects h2 , p {
+    margin-bottom: 50px;
+ }
