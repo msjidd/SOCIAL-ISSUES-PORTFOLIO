@@ -65,8 +65,10 @@
 }
 
 .btn:hover {
-    background: transparent;
+    background: red;
     color: #000000;
     box-shadow: none;
     gap: 300px;
+    transform: scale(1.078);
+    transition: all ease 0.8s;
 }

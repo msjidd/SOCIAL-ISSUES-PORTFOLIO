@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="../assets/styles/style.css">
 </header> 
 
 <!---HEADER-->
@@ -16,22 +16,14 @@
         </div>
         <div class="nav-menu">
             <ul>
-                <li><a href="#hero-banner">HOME</a></li>
-                <li><a href="#Aboutme">ABOUT</a></li>
-                <li><a href="#Projects">PROJECT</a></li>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECT</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div>
     </nav>
 
-    <div class="bars-animation">
-        <div class="bar" style="--i:6;"></div>
-        <div class="bar" style="--i:5;"></div>
-        <div class="bar" style="--i:4;"></div>
-        <div class="bar" style="--i:3;"></div>
-        <div class="bar" style="--i:2;"></div>
-        <div class="bar" style="--i:1;"></div>  
-    </div>
 
 
 <section id="home" class="hero"> 
@@ -54,7 +46,7 @@
 
             <!-- About Me -->
 
-            <section class="about">
+            <section id="about" class="about">
                 <h2>ABOUT ME</h2>
                 <div class="container">
                   
@@ -140,7 +132,9 @@
                         
             
                    <!--CARD 2-->
+                          
                           <div class="card"> 
+                            
                                 <div class="card-header">
                                     <img src="./assets/images/project 2.jpg" alt="Card Image">
                                   </div>
@@ -150,6 +144,8 @@
                            </div> 
                             <a href="#" class="btn">Learn More</a>
                         </div>
+                          
+                           
                         
 
                    <!--CARD 3-->
@@ -168,7 +164,7 @@
                          </section> 
                              
              <!-- Contact -->  
-              <section id="contactni" >
+              <section id="contact" >
              <h1>CONTACT ME</h1>
              <div class="contact-container">
                <!-- Left Section -->
@@ -205,7 +201,7 @@
                    <label for="message">MESSAGE:</label>
                    <textarea id="message" placeholder="Enter message"></textarea>
            
-                   <button type="submit">SUBMIT</button>
+                   <a href="./pages/thankyou.html" class="btn">Submit</a>
                  </form>
                </div>
              </div>
