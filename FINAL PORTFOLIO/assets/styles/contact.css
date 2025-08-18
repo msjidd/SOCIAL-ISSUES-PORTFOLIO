@@ -1,5 +1,13 @@
 
 
+.contact {
+  background: #a52a2a;
+  padding: 80px;
+  position: absolute;
+}
+.contact h1{
+  color: #800000;
+}
 .contact-container {
   display: flex;
   justify-content: center;
@@ -15,11 +23,12 @@
 .contact-left h2 {
   text-align: left;
   margin-bottom: 15px;
+  color: #800000;
 }
 
 .btn-connect {
-  background: white;
-  color: #b30000;
+  background: #800000;
+  color: #fff;
   padding: 8px 20px;
   border-radius: 20px;
   display: inline-block;
@@ -32,6 +41,9 @@
 .contact-left p {
   margin-bottom: 15px;
   line-height: 1.6;
+  font-size: 24px;
+  padding-left: 0%;
+  color: black;
 }
 
 .contact-info {
@@ -58,13 +70,19 @@
   width: 350px;
   height: 130%;
   width: 30%;
+  background-color: #800000;
+}
 
+.contact-righthover {
+  transform: scale(1.078);
+  transition: all ease 0.8s;
 }
 
 .contact-right label {
   display: block;
   margin: 15px 0 5px;
   font-weight: bold;
+  color: #fff;
 }
 
 .contact-right input,
@@ -86,7 +104,7 @@
 
 .contact-right .btn {
   background: white;
-  color: black;
+  color: #800000;
   padding: 10px 30px;
   border: none;
   border-radius: 15px;
@@ -98,10 +116,11 @@
 }
 
 .contact-right .btn:hover {
-  background: red;
+  background: #800000;
   color: white;
 }
 
 h1, h2 {
   text-align: center;
+  color: #800000;
 }

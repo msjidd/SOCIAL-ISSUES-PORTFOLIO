@@ -1,7 +1,7 @@
-#hero-banner {
+.hero {
     display: flex;
     align-items: center;
-    height: 200vh;
+    height: 100vh;
     padding: 60px 9% 0;
     visibility: hidden;
     opacity: 0;
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background: rgba(130, 28, 28, 0.84); 
+    background:#800000; 
     } 
    
 .hero-text h1 {
@@ -42,6 +42,7 @@
      font-size: 300%;
      text-align: center;
      font-family: 'Times New Roman', Times, serif;
+     color: white;
      }
 
 .hero-text p {
@@ -49,6 +50,7 @@
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         font: normal;
+        color:white;
         }
    
 
@@ -56,18 +58,20 @@
     display: inline-block;
     background: white; 
     color: #800000; 
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 20px;
     text-decoration: none; 
-    margin-right: 10px; 
-    gap: 300px;
+    margin-right: 5px; 
+    gap: 5px;
     align-items: center;
+    margin-left: 20%;
 }
 
 .btn:hover {
-    background: red;
+    background: #800000;
     color: #000000;
-    box-shadow: none;
+    padding: 10px 25px;
+    box-shadow: 2px 5px white;
     gap: 300px;
     transform: scale(1.078);
     transition: all ease 0.8s;

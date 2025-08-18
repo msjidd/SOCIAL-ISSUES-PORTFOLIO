@@ -13,9 +13,10 @@
     font-size: 26px;
     letter-spacing: 2px;
     margin-left: 100px;
+    color: #800000;
   }
   
-  /* Layout */
+
   .container {
     display: flex;
     justify-content: space-between;
@@ -30,6 +31,7 @@
   .skills {
     width: 35%;
     text-align: left;
+    color: #070505;
   }
   
   .skills h3 {
@@ -108,16 +110,15 @@
     color: #0a0a0a;
     padding: 25px;
     border-radius: 15px 60px 15px 15px;
-    text-align: left;
+    text-align: justify;
     line-height: 1.6;
     font-size: 16px;
   }
+
   .about-text p , strong , b ,em{
     color:#070505;
     background-color: #fff;
-    
-
-    
+    align-items: center;   
   }
   
   .about-text em {

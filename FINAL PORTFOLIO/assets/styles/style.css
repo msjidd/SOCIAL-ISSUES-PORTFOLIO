@@ -1,7 +1,3 @@
-@import "button.css";
-
-
-
 
 @import "thankyou.css";
 @import "navbar.css";
@@ -19,7 +15,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif;
-    color: rgb(255, 255, 255);   
-    background-color: rgba(130, 28, 28, 0.84);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #030202; 
 }

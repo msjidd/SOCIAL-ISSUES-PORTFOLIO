@@ -34,9 +34,10 @@
     padding-bottom: 5%;
 }
 
-.card-body {
+.card-body p{
     padding: 0 18px;
     padding-top: 5%;
     text-align: justify;
+    color: black;
   }
   
