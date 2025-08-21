@@ -14,14 +14,14 @@
 
 .hero-img img {
     max-width: 250px;
-    border-radius: 20px;
+    border-radius: 50px;
 }
 
 .desc-box {
     background: white;
     color: #a52a2a;
     padding: 5px;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 5%;
     border-radius: 20px;
     font-size: 20px;
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background:#800000; 
+    background: #800000;
     } 
    
 .hero-text h1 {
@@ -69,7 +69,7 @@
 
 .btn:hover {
     background: #800000;
-    color: #000000;
+    color: #ffffff;
     padding: 10px 25px;
     box-shadow: 2px 5px white;
     gap: 300px;

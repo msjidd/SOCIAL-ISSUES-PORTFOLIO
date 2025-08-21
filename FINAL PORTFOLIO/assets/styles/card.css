@@ -1,7 +1,7 @@
 .card { 
     background: white; 
     color: black;
-    padding: 20px; 
+    padding: 16px; 
     border-radius: 10px;
     box-shadow: 0 0 10px red;
     width: 350px;
@@ -23,7 +23,6 @@
     border-radius: 20px;
     text-decoration: none;
     display: inline-block;
-    margin-top: 10px;
 }
 
 .card-header img {

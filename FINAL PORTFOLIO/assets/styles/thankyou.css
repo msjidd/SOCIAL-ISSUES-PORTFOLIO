@@ -1,17 +1,20 @@
 .thankyou {
-    height: 100vh;
         height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         line-height: 3;
+        background: linear-gradient(to top , #ffffff, #731919, #f3f3f3);
+}
+.thankyou h1{
+    color: #800000;
+    font-style: italic;
 }
 
 
 .thankyou btn {
-        display: inline-block;
-        background: white; 
+        display: inline-block; 
         padding: 10px 20px;
         border-radius: 20px;
         text-decoration: none; 
@@ -20,7 +23,8 @@
         align-items: center;
     }
     .thankyou .btn:hover {
-        color: #000000;
+        border-radius: 20px;
+        color: #ffffff;
         box-shadow: none;
         gap: 300px;
         transform: scale(1.078);
