@@ -1,6 +1,6 @@
 
 #about{
-   height: 100vh;
+   min-height: 100vh;
 }
 .about {
     padding: 40px;
@@ -19,6 +19,7 @@
    filter: blur(1px);
    max-width: 350px;
    max-height: fit-content;
+   height: auto;
    border-radius: 10px;
    box-shadow:  0 0 15px 5px #800000;
    border: 5px solid #800000;
@@ -145,4 +146,5 @@ margin-bottom: 5%;
       justify-content: center;
     }
   }
+
   
