@@ -1,0 +1,150 @@
+
+#about{
+   min-height: 100vh;
+}
+.about {
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .about h2 {
+    margin-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #800000;
+  }
+  
+  .about-img img {
+   overflow: hidden;
+   filter: blur(1px);
+   max-width: 350px;
+   max-height: fit-content;
+   height: auto;
+   border-radius: 10px;
+   box-shadow:  0 0 15px 5px #800000;
+   border: 5px solid #800000;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 40px;
+
+  }
+  
+  
+  .skills {
+    width: 35%;
+    text-align: left;
+    color: #070505;
+  }
+  
+  .skills h3 {
+    margin-bottom: 12px;
+    font-size: 20px;
+  }
+  
+  .skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .skills ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  
+  .icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  
+  .icon {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  
+  .icon img {
+    width: 40px;
+    height: auto;
+    margin-bottom: 5px;
+    aspect-ratio: 4/3;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+
+  }
+  
+  .icon p {
+    font-size: 14px;
+    margin: 0;
+    color: #000000;
+  }
+  
+  
+  
+  
+  .about-text {
+    width: 50%;
+    height: 150%;
+    color: #0a0a0a;
+    padding: 25px;
+    border-radius: 15px 60px 15px 15px;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+
+  .about-text p , strong , b ,em{
+    color:#000000;
+    align-items: center;   
+  }
+  .about-text h3{
+text-align: center;
+margin-bottom: 5%;
+  }
+  
+  .about-text em {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  .about-text strong {
+    font-weight: bold;
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .skills, .about-text {
+      width: 100%;
+    }
+  
+    .icons {
+      justify-content: center;
+    }
+  }
+
+  

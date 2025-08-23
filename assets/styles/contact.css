@@ -1,0 +1,129 @@
+
+
+.contact {
+  background: #a52a2a;
+  padding: 80px;
+  position: absolute;
+  max-height: fit-content;
+}
+.contact h1{
+  color: #800000;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 50px;
+}
+
+.contact-left {
+  max-width: 400px;
+}
+
+.contact-left h2 {
+  text-align: left;
+  margin-bottom: 15px;
+  color: #800000;
+}
+
+.btn-connect {
+  background: #800000;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.contact-left p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 24px;
+  padding-left: 0%;
+  color: black;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contact-info img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+.contact-right {
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(4,4,4,5);
+  width: 350px;
+  height: 130%;
+  width: 30%;
+  background-color: #800000;
+}
+
+.contact-righthover {
+  transform: scale(1.078);
+  transition: all ease 0.8s;
+}
+
+.contact-right label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact-right input,
+.contact-right textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  color:black;
+}
+
+.contact-right textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-right .btn {
+  background: white;
+  color: #800000;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-right .btn:hover {
+  background: #800000;
+  color: white;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #800000;
+}
+
+  
